@@ -41,7 +41,6 @@ void Render::DrawPath(io2d::output_surface &surface) const{
 }
 
 void Render::DrawEndPosition(io2d::output_surface &surface) const{
-    if (m_Model.path.empty()) return;
     io2d::render_props aliased{ io2d::antialias::none };
     io2d::brush foreBrush{ io2d::rgba_color::red };
 
