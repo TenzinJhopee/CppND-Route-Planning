@@ -313,7 +313,7 @@ OSM_A_star_search_SOURCE_DIR:STATIC=/home/tenzinsean/Documents/c++/C++-nano/CppN
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 
 //Path to a program.
-PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python
+PYTHON_EXECUTABLE:FILEPATH=/home/tenzinsean/anaconda3/bin/python
 
 //Use separate postfix for each configuration to make sure you
 // can install multiple build outputs
@@ -580,7 +580,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_GraphicsMagick:INTERNAL=[/usr/include/GraphicsMagic
 //Details about finding PkgConfig
 FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.29.2()]
 //Details about finding PythonInterp
-FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v2.7.18()]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/home/tenzinsean/anaconda3/bin/python][v3.7.6()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 PC_CAIRO_CFLAGS:INTERNAL=-I/usr/include/cairo;-I/usr/include/glib-2.0;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;-I/usr/include/pixman-1;-I/usr/include/uuid;-I/usr/include/freetype2;-I/usr/include/libpng16
